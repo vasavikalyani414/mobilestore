@@ -1,0 +1,91 @@
+s{
+    color: darkturquoise;
+}
+p{
+    color: forestgreen;
+}
+button{
+    color: black;
+    background-color: cornsilk;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+        .card{
+            margin: 1%;
+            padding: 1%;
+            border:2px solid black;
+        }
+        .cardbody{
+            margin: 1%;
+            padding: 1%;
+            border: 2px solid black;
+            font-size:20px ;
+            box-shadow:2px 5px 6px black;
+            text-shadow: 2px 5px 6px black;
+            text-align: center;
+            
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+        s{
+            color: darkturquoise;
+        }
+        p{
+            color: forestgreen;
+        }
+        button{
+            color: black;
+            background-color: cornsilk;
+        }
+        .cardbody img{
+            width: 90%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .card{
+        margin: 1%;
+        padding: 1%;
+        border:2px solid black;
+    }
+    .cardbody{
+        margin: 1%;
+        padding: 1%;
+        border: 2px solid black;
+        font-size:20px ;
+        box-shadow:2px 5px 6px black;
+        text-shadow: 2px 5px 6px black;
+        text-align: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    } 
+    s{
+        color: darkturquoise;
+    }
+    p{
+        color: forestgreen;
+    }
+    button{
+        color: black;
+        background-color: cornsilk;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
